@@ -20,10 +20,16 @@ Ensure you have a standard Python environment with numpy, scipy and matplotlib.
 Output:
 The code generates a three-panel snapshot comparison (matplotlib) tracking the evolution over time ($t = 0$ to $t = 12$) normalized by the Schwarzschild radius ($R/2M$) of the Density Evolution ($\rho/\rho_i$), the Velocity Profile ($v$), the Lapse Function ($\alpha$)
 
+
 Functions:
 phys_2_cons / cons_2_phys: Conversions between physical primitives and conserved hydro variables.
+
 obtener_analitica_temporal: Exact mathematical solution parsing the internal/external metric boundary conditions.
+
 reconstruct_primitive: Piecewise linear reconstruction using the Minmod limiter.
+
 get_metrica: Integrates the dynamic spacetime profile based on mass enclosures.
+
 rhs: Formulates the flux derivatives and geometric source terms for the solver loop.
+
 
