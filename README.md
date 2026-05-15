@@ -14,11 +14,14 @@ Features
 - Evaluates numerical fluxes across cell boundaries alongside a localized vacuum atmospheric treatment ($\rho_{\text{atm}} = 10^{-10} \rho_0$).
 - Time Integration: Uses 2nd-order Runge-Kutta (RK2) time-stepping scheme.
 
+
 Dependencies:
 Ensure you have a standard Python environment with numpy, scipy and matplotlib.
 
+
 Output:
 The code generates a three-panel snapshot comparison (matplotlib) tracking the evolution over time ($t = 0$ to $t = 12$) normalized by the Schwarzschild radius ($R/2M$) of the Density Evolution ($\rho/\rho_i$), the Velocity Profile ($v$), the Lapse Function ($\alpha$)
+
 
 
 Functions:
