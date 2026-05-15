@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from scipy.integrate import cumulative_trapezoid
 from scipy.optimize import brentq
 
-# ========= CONFIGURACIÓN DE PARÁMETROS =========
+# ========= PARAMETER CONFIGURATION =========
 M_GRAVIT = 0.5
 R_0 = 5.0
 
