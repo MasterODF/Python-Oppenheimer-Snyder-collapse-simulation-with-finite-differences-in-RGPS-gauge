@@ -1,4 +1,4 @@
-# Python-Oppenheimer-Snyder-collapse-simulation-with-finite-differences-in-RGPS-gauge
+# Python-Oppenheimer-Snyder-collapse-simulation-with-finite-volumes-in-RGPS-gauge
 Project for the "Estança d'Investigació" of the Master's in Advanced Physics - Theoretical Physics Specialization.
 
 Based on Jose V. Romero, J. M. (1996). A new spherically symmetric general relativistic hydrodynamical code. The Astrophysical Journal, 839-855. (https://ui.adsabs.harvard.edu/abs/10.1086/177198).
